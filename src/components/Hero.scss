@@ -1,0 +1,15 @@
+.hero {
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  background-position: center top;
+
+}
+
+div.card {
+  border-radius: unset;
+  
+}
+
+div.row {
+  --bs-gutter-x: unset;
+}
