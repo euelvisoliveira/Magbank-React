@@ -1,0 +1,38 @@
+@import '../variables';
+
+div.accordion {
+  --bs-accordion-btn-icon: unset;
+  --bs-accordion-btn-active-icon: unset;
+  --bs-accordion-btn-focus-box-shadow: unset;
+  --bs-accordion-border-color: #3b2e4a; 
+  --bs-accordion-bg: #3b2e4a;
+  --bs-accordion-btn-color: #fff;
+
+  .accordion-button {
+    color: #fff;
+    background-color: #3b2e4a;
+  }
+}
+
+.faq{
+  background-color: $color-background-faq;
+
+  &__card {
+    background-color: $color-background-faq;
+  }
+
+  &-title {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    padding-bottom: 2rem;
+  }
+
+  &-clickable {
+    cursor: pointer;
+  }
+}
+
+div .lead {
+  width: auto;
+}

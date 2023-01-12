@@ -1,6 +1,6 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react'
+import { Row, Col } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const IconText = ({
   icon,
@@ -9,15 +9,16 @@ const IconText = ({
   className = '',
   textClassName = '',
   children,
+  onClick
 }) => (
-  <Row className={className}>
-    <Col xs={size} className='d-flex justify-content-center'>
+  <Row className={className} onClick={onClick}>
+    <Col xs={size} className="d-flex justify-content-center">
       <FontAwesomeIcon icon={icon} size={`${size}x`} color={color} />
     </Col>
     <Col xs={12 - size} className={textClassName}>
       {children}
     </Col>
   </Row>
-);
+)
 
-export default IconText;
+export default IconText
