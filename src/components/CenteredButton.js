@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Button } from 'react-bootstrap'
 
-const CenteredButton = ({ children }) => (
+const CenteredButton = ({ children, onClick }) => (
   <Container className="d-flex justify-content-center">
-    <Button className="my-5 " variant="success" size="lg">
+    <Button className="my-5 " variant="success" size="lg" onClick={onClick}>
       {children}
     </Button>
   </Container>
