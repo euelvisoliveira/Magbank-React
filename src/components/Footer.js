@@ -16,10 +16,10 @@ const Footer = () => (
   <footer className="footer">
     <Container>
       <Row className="text-center py-5">
-        <Col xs={12} lg={6} className="text-lg-left">
-          <Image src={logo} />
+        <Col xs={12} lg={6} className="text-lg-left mb-5">
+          <Image src={logo} className="mb-mx-5" />
         </Col>
-        <Col xs={12} lg={4} className="py-xs-5">
+        <Col xs={12} lg={4} className="mb-5">
           <Image src={logoApple} />
           <Image src={logoGoogle} className="mx-3" />
         </Col>
